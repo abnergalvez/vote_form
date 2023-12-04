@@ -1,0 +1,21 @@
+{
+    "name": "abner/desis",
+    "description": "Prueba Desis",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abner\\Desis\\": "src/",
+            "Abner\\Desis\\Controllers\\": "src/controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abner Galvez"
+        }
+    ]
+}
