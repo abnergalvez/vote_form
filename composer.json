@@ -4,13 +4,15 @@
     "type": "project",
     "require": {
         "php": "^8.2",
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "eftec/bladeone": "^4.9"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Abner\\Desis\\": "src/",
-            "Abner\\Desis\\Controllers\\": "src/controllers"
+            "Abner\\Desis\\Controllers\\": "src/controllers",
+            "Abner\\Desis\\Views\\": "src/views"
         }
     },
     "authors": [
