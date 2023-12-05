@@ -51,10 +51,21 @@ You can only cast one vote per "rut".
 - Within the future improvements this form could be made in a framework like laravel or in another lighter one like lumen and the views with vuejs.
 - Also the realization of an area of administration of the input data and with a Mysql database.
 
+## 🛠️ Technical Aspects and Logic
+
+- The "conventional commit" base was applied (https://www.conventionalcommits.org/en/v1.0.0/)
+-  I applied a start of MVC architecture, separating the models, controllers and views, as well as a repository pattern with a directory for it.
+- Composer was used for dependencies
+- Some boostrap 5 components were used for the view.
+- For the query and translation of path and method we used the "controller_name/method_name" logic, where "controller_name" is inside the controller_nameController directory. 
+(ex: path vote/ --> "VoteController.php")
+and in the same way with the method after "/".
+- In the same way also the access by ajax for POST method is validated.
+
 ## 👥 Authors
 
 Abner Galvez C., using PHP Laravel 8.*
 
-## 🛠️ Project status
+## 🚀 Project status
 
 Completed, awaiting review.
