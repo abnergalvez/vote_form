@@ -19,7 +19,7 @@ Dependencies: SQLite, Composer and PHP 8.2 or higher.
     composer install
     ```
 - Copy the .env_example to .env and you must check that the 3 environment variables:
-    ``bash
+    ```bash
     APP_NAME = "VOTE FORM"
     INDEX_CONTROLLER=vote
     DB_FILE=/db/db_local.sqlite
