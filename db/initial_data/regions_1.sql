@@ -1,0 +1,17 @@
+INSERT INTO regions (id,label,tag,short) VALUES
+	 (1,'Arica y Parinacota','arica_parinacota','Arica'),
+	 (2,'Tarapacá','tarapaca','Tarapacá'),
+	 (3,'Antofagasta','antofagasta','Antofagasta'),
+	 (4,'Atacama','atacama','Atacama'),
+	 (5,'Coquimbo','coquimbo','Coquimbo'),
+	 (6,'Valparaiso','valparaiso','Valparaiso'),
+	 (7,'Metropolitana de Santiago','metropolitana','Metropolitana'),
+	 (8,'Libertador General Bernardo O''Higgins','ohiggins','O''Higgins'),
+	 (9,'Maule','maule','Maule'),
+	 (10,'Biobío','biobio','Biobío'),
+	 (11,'La Araucanía','araucania','Araucanía'),
+	 (12,'Los Ríos','rios','Ríos'),
+	 (13,'Los Lagos','lagos','Lagos'),
+	 (14,'Aysén del General Carlos Ibáñez del Campo','aysen','Aysén'),
+	 (15,'Magallanes y de la Antártica Chilena','magallanes','Magallanes'),
+	 (16,'Ñuble','nuble','Ñuble');

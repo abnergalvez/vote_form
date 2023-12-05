@@ -5,14 +5,18 @@
     "require": {
         "php": "^8.2",
         "vlucas/phpdotenv": "^5.6",
-        "eftec/bladeone": "^4.9"
+        "eftec/bladeone": "^4.9",
+        "ext-sqlite3": "*"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Abner\\Desis\\": "src/",
-            "Abner\\Desis\\Controllers\\": "src/controllers",
-            "Abner\\Desis\\Views\\": "src/views"
+            "Desis\\": "src/",
+            "Desis\\Controllers\\": "src/controllers",
+            "Desis\\Views\\": "src/views",
+            "Desis\\Models\\": "src/models",
+            "Desis\\Repositories\\": "src/repositories"
+
         }
     },
     "authors": [
