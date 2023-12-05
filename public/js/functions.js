@@ -22,6 +22,9 @@ function submitForm() {
                 $('.alert-content').html(res.message);
                 setTimeout(function () {
                     $('.alert').css('display', 'none');
+                   if(res.status == 'success'){
+                    location.reload();
+                   };
                 },5000);
             },
             error: function(error) {
