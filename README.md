@@ -24,7 +24,7 @@ Dependencies: SQLite, Composer and PHP 8.2 or higher.
     INDEX_CONTROLLER=vote
     DB_FILE=/db/db_local.sqlite
     ```
-- Run the database schemas and insert initial data 
+- Run the database schemas and insert initial data (*.sql in db/initial_data , db/schema)
     ```bash
     php initdb.php
     ```
