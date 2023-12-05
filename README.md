@@ -64,7 +64,7 @@ and in the same way with the method after "/".
 
 ## 👥 Authors
 
-Abner Galvez C., using PHP Laravel 8.*
+Abner Galvez C., using PHP 8.2
 
 ## 🚀 Project status
 
